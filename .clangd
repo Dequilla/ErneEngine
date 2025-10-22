@@ -1,0 +1,10 @@
+Diagnostics:
+    UnusedIncludes: Strict
+    ClangTidy:
+        Add: ['bugprone-*', 'unused-*']
+        FastCheckFilter: Strict
+Completion:
+    HeaderInsertion: Never
+CompileFlags:
+    Add: -Wall
+    CompilationDatabase: ./build/
